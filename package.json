@@ -1,5 +1,5 @@
 {
-  "name": "@rmcommons/common",
+  "name": "@rmcommons/ticketapp",
   "version": "1.0.7",
   "description": "",
   "main": "./build/index.js",
