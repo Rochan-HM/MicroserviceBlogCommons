@@ -4,7 +4,7 @@ export interface CommentDeletedEvent {
     subject: Subjects.CommentDeleted;
     data: {
         id: string;
-        title: string;
+        postId: string;
         userId: string;
     };
 }

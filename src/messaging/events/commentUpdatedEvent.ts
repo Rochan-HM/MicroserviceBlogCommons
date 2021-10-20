@@ -4,7 +4,7 @@ export interface CommentUpdatedEvent {
     subject: Subjects.CommentUpdated;
     data: {
         id: string;
-        title: string;
+        postId: string;
         userId: string;
     };
 }
