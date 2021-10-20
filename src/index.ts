@@ -11,7 +11,11 @@ export * from "./middleware/protectedRoute";
 export * from "./middleware/validateRequest";
 
 export * from "./messaging/subjects";
-export * from "./messaging/pubsub/base-listener";
-export * from "./messaging/pubsub/base-publisher";
-export * from "./messaging/events/post-created-event";
-export * from "./messaging/events/post-updated-event";
+export * from "./messaging/pubsub/baseSubscriber";
+export * from "./messaging/pubsub/basePublisher";
+export * from "./messaging/events/postCreatedEvent";
+export * from "./messaging/events/postUpdatedEvent";
+export * from "./messaging/events/postDeletedEvent";
+export * from "./messaging/events/commentCreatedEvent";
+export * from "./messaging/events/commentUpdatedEvent";
+export * from "./messaging/events/commentDeletedEvent";

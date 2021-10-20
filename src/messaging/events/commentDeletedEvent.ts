@@ -1,11 +1,10 @@
 import { Subjects } from "../subjects";
 
-export interface TicketCreatedEvent {
-    subject: Subjects.PostCreated;
+export interface CommentDeletedEvent {
+    subject: Subjects.CommentDeleted;
     data: {
         id: string;
         title: string;
-        body: number;
         userId: string;
     };
 }
